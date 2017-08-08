@@ -1,0 +1,7 @@
+#Sat Aug 05 09:16:44 PDT 2017
+base.0=C\:\\Users\\Ronus\\Desktop\\TheRealApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ed58db5639c94f41e58eb4fc505240cfc9e6d44f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Ronus\\Desktop\\TheRealApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ba5cb0ce55992485a9bfdad9e5fb2736c370b3d9\\classes.dex
+base.1=C\:\\Users\\Ronus\\Desktop\\TheRealApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ba5cb0ce55992485a9bfdad9e5fb2736c370b3d9
+file.0=C\:\\Users\\Ronus\\Desktop\\TheRealApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ed58db5639c94f41e58eb4fc505240cfc9e6d44f\\classes.dex
