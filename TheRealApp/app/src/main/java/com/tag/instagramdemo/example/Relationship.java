@@ -20,6 +20,7 @@ import com.tag.instagramdemo.R;
 
 public class Relationship extends Activity {
 	private String url = "";
+	private InstagramApp.OAuthAuthenticationListener mListener;
 	private ListView lvRelationShipAllUser;
 	private ArrayList<HashMap<String, String>> usersInfo = new ArrayList<HashMap<String, String>>();
 	private Context context;
@@ -64,7 +65,9 @@ public class Relationship extends Activity {
 		lvRelationShipAllUser.setAdapter(new RelationShipAdapter(context,
 				usersInfo));
 	}
-
+	public void setListener(InstagramApp.OAuthAuthenticationListener listener) {
+		mListener = listener;
+	}
 	private void getAllMediaImages() {
 		pd = ProgressDialog.show(context, "", "Loading...");
 		new Thread(new Runnable() {
@@ -103,6 +106,7 @@ public class Relationship extends Activity {
 					what = WHAT_ERROR;
 				}
 				// pd.dismiss();
+				//mListener.onSuccess();
 				handler.sendEmptyMessage(what);
 			}
 		}).start();
